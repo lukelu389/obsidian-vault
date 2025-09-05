@@ -70,4 +70,3 @@ $$
 		$x^2+11x+24$ is the quotient of the factorization of the polynomial
 		$x^2+11x+24 = (x+3)(x+8)$
 		$x^3+10x^3+13x-24 = (x-1)(x+3)(x+8)$ 
-	

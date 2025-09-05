@@ -72,15 +72,15 @@ a) $\forall a \in \mathbb{Z}, (a-5)^2 < 0$
 b)$\exists \mathbb{\theta} \in \mathbb{R}, \forall \mathbb{\alpha} \in \mathbb{R}, \sin(\mathbb{\theta}) \neq \cos\mathbb(\alpha)$ 
 
 Q4
-a) $ran(f) \in [-1,1]$
-b) $\forall r \in \mathbb{R}, \exists a \in \mathbb{R}, \exists b \in \mathbb{R}$ s.t. $r = a*b$
+a) $ran(f) = [-1,1]$
+b) $\forall r \in \mathbb{R}, \exists a, b \in \mathbb{R}$ s.t. $r = a*b$
 
 Q5
-a)Statement
-b)Statement
-c)Statement
-d)Open sentence
-e)Statement
+a)Statement is False
+b)Statement is True
+c)Statement is True
+d)Open sentence depending on $w$
+e)Statement is True
 
 Q6) 
 a)$\forall x\in S, \forall y \in S, P(x, y)$ with domain $\mathcal{U} = \left\{ 3, \frac{1}{3} \right\}$ and open sentence $P_{1}(x, y):x=27^y$
