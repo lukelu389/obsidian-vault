@@ -82,7 +82,7 @@ c)Statement is True
 d)Open sentence depending on $w$
 e)Statement is True
 
-Q6) 
+Q6) redo
 a)$\forall x\in S, \forall y \in S, P(x, y)$ with domain $\mathcal{U} = \left\{ 3, \frac{1}{3} \right\}$ and open sentence $P_{1}(x, y):x=27^y$
 b)$\forall x\in S, \forall y \in S, P(x, y)$ with domain $\mathcal{T}=\{-1, 0, 1\}$ and open sentence $P_{3}(x, y) :\sin\left( \frac{\pi y}{2} \right) = |x|$
 c)$\forall x\in S, \forall y \in S, P(x, y)$ with domain $\mathbb{R}$ and open sentence $P_{4}(x, y): xy\in S$
