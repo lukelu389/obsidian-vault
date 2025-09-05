@@ -1,4 +1,4 @@
-**Transcendental Functions** 
+**Real and Transcendental Functions** 
 
 1. Real-Valued Functions
 	Let $X$ and $Y$ be sets. A function $f$ is a mapping that assigns to each $x\in X$ exactly one $y=f(x) \in Y$. We use the notation:
@@ -54,3 +54,7 @@ $$
 		Inverse functions
 		Let $f:X\to Y$ be a function with domain $X$ and range $Y$. Then $f$ is invertible if $\exists f^-1: Y\to X$ so that 
 		$$f^-1(f(x)) = x  \;  \forall x \in X \text{ and } f^-1(f(x)) = x\;  \forall x\in Y $$
+	Examples:
+		$f(x) = \frac{x}{x^2-x} = \frac{x}{(x-1)(x)}; x\neq 0, 1$ 
+		Therefore the domain should be $x\in \mathbb{R} \setminus \{0, 1\}$, alternatively $x \in (\infty, 0) \cup (0, 1)\cup (1, \infty)$ 
+		
