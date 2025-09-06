@@ -18,7 +18,7 @@ A statement is a sentence that has a definite state of being either true of fals
 			$x > 3$
 			$x = x$
 **Negation**
-Suppose that $A$ is a statement. Then the **negation** of $A$, is denoted by $\neg A$, is the statement asserting the opposite truth value to . That is, $\neg A$ is false when  is true, and $\neg A$ is true when $A$ is false.
+Suppose that $A$ is a statement. Then the **negation** of $A$, is denoted by $\neg A$, is the statement asserting the opposite truth value to . That is, $\neg A$ is false when $A$ is true, and $\neg A$ is true when $A$ is false.
 
 Logically equivalent : $\neg (\neg A) \equiv A$
 
