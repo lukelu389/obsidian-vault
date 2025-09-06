@@ -67,12 +67,12 @@ b)T
 c)T
 d)F
 
-Q3
-a) $\forall a \in \mathbb{Z}, (a-5)^2 < 0$
-b)$\exists \mathbb{\theta} \in \mathbb{R}, \forall \mathbb{\alpha} \in \mathbb{R}, \sin(\mathbb{\theta}) \neq \cos\mathbb(\alpha)$ 
+Q3 
+a) $\exists a \in \mathbb{Z}, (a-5)^2 < 0$
+b)$\forall \mathbb{\theta} \in \mathbb{R}, \exists \mathbb{\alpha} \in \mathbb{R}, \sin(\mathbb{\theta}) \neq \cos\mathbb(\alpha)$ 
 
 Q4
-a) $ran(f) = [-1,1]$
+a) $f(x) = \sin(x); f(x) \in [-1,1]$
 b) $\forall r \in \mathbb{R}, \exists a, b \in \mathbb{R}$ s.t. $r = a*b$
 
 Q5
@@ -82,7 +82,7 @@ c)Statement is True
 d)Open sentence depending on $w$
 e)Statement is True
 
-Q6) redo
+Q6) 
 a)$\forall x, y \in S, P(x, y)$ with domain $\mathbb{Q}_{>0}$ s.t. $P_{4}=xy \in S$
 b)$\forall x \in S, \exists y \in S, P(x, y)$ with domain $\mathcal{T}=\{-1, 0, 1\}$ s.t. $P_{3}: \sin\left( \frac{\pi y}{2} \right) = |x|$
 c)$\exists x \in S, \forall y \in S, P(x, y)$ with domain $\mathbb{R}$ s.t. $P_{2}=y^2\geq x$ 
