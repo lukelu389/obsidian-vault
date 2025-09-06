@@ -1,60 +1,60 @@
 
 **Set Notation**
-$\mathbb{N}$ is the set of natural number, 0 is excluded
-$\mathbb{Z}$ is the set of integers
-$\mathbb{Q}$ is the set of all numbers of form $\frac{a}{b}$ where $a \in \mathbb{Z}$ and $b \in \mathbb(Z) \setminus \{0\}$
-$\mathbb{R}$ is the set of all real numbers
+$\mathbb{N}$ is the set of natural number, 0 is excluded. 
+$\mathbb{Z}$ is the set of integers.    
+$\mathbb{Q}$ is the set of all numbers of form $\frac{a}{b}$ where $a \in \mathbb{Z}$ and $b \in \mathbb(Z) \setminus \{0\}$.   
+$\mathbb{R}$ is the set of all real numbers.    
 
-Parity: if an integer is even or odd
+Parity: if an integer is even or odd.  
 
-**Statements**
-A statement is a sentence that has a definite state of being either true of false.
-	Examples not statement: 
-		questions
-		order
-		no definite true of false answers
-			This statement is false
-			Let $x$ be ... 
-			$x > 3$
-			$x = x$
-**Negation**
-Suppose that $A$ is a statement. Then the **negation** of $A$, is denoted by $\neg A$, is the statement asserting the opposite truth value to . That is, $\neg A$ is false when $A$ is true, and $\neg A$ is true when $A$ is false.
+**Statements**  
+A statement is a sentence that has a definite state of being either true of false.  
+	Examples not statement:   
+		questions 
+		order  
+		no definite true of false answers  
+			This statement is false  
+			Let $x$ be ...    
+			$x > 3$   
+			$x = x$   
+**Negation**   
+Suppose that $A$ is a statement. Then the **negation** of $A$, is denoted by $\neg A$, is the statement asserting the opposite truth value to . That is, $\neg A$ is false when $A$ is true, and $\neg A$ is true when $A$ is false.   
 
-Logically equivalent : $\neg (\neg A) \equiv A$
+Logically equivalent : $\neg (\neg A) \equiv A$   
 
-**Quantifiers**
-- Universal
-	- $\forall$ means "for all" is the universal quantifier
-- Existential
-	- $\exists$ means "there exist(s)" is the existential quantifier
+**Quantifiers**  
+- Universal  
+	- $\forall$ means "for all" is the universal quantifier.  
+- Existential  
+	- $\exists$ means "there exist(s)" is the existential quantifier.  
 
 Example:
-	$\exists x \in \mathbb{R}, x>3$ means "There exists a real number $x$ s.t. $x > 3$" ), an existentially quantified statement
+	$\exists x \in \mathbb{R}, x>3$ means "There exists a real number $x$ s.t. $x > 3$" ), an existentially quantified statement. 
 
-Terminology:
-	Variable (e.g. $x$)
-	A domain is any set (e.g. $\mathbb{R}$, etc.)
-	An open sentence denoted, $P(x)$, involving the variable that is either true of false whenever a value of variable chosen from the domain is specified (e.g. $x>3$ from the previous lines)
+Terminology:  
+	Variable (e.g. $x$) 
+	A domain is any set (e.g. $\mathbb{R}$, etc.)  
+	An open sentence denoted, $P(x)$, involving the variable that is either true of false whenever a value of variable chosen from the domain is specified (e.g. $x>3$ from the previous lines).  
 
-FYI
+FYI 
 ![[Screenshot 2025-09-05 at 11.02.48 AM.png]]
-Examples:
-Consider the phrase "$x+1 > x$ "; this is not a statement, as we cannot tell if it is true of false until we know what $x$ is.(e.g. a real number? a horse?)
-However, the phrase. "$\forall x \in \mathbb{R}, x+1>x$" is a statement; it is true
+Examples:  
+Consider the phrase "$x+1 > x$ "; this is not a statement, as we cannot tell if it is true of false until we know what $x$ is.(e.g. a real number? a horse?). 
+However, the phrase. "$\forall x \in \mathbb{R}, x+1>x$" is a statement; it is true.  
 
-**Nested Quantifier**
-Consider the universally quantified statement on $x$: "$\forall x \in \mathbb{R}, \exists y \in \mathbb{R}, x>y$ ", which is true. It says every real number $x$ has a smaller number $y$ s.t. $x>y$.
+**Nested Quantifier**  
+Consider the universally quantified statement on $x$:"$\forall x \in \mathbb{R}, \exists y \in \mathbb{R}, x>y$ ", which is true. It says every real number $x$ has a smaller number $y$ s.t. $x>y$.   
 
-Caution that "$\exists y \in \mathbb{R}, \forall x \in \mathbb{R}, x>y$" is a completely a new universally quantified statement on $y$, which is false. It says $y$ is the smallest than any real number, even smaller than itself!
+Caution that "$\exists y \in \mathbb{R}, \forall x \in \mathbb{R}, x>y$" is a completely a new universally quantified statement on $y$, which is false. It says $y$ is the smallest than any real number, even smaller than itself!   
 
-**Two Nested Quantifiers**
+**Two Nested Quantifiers**  
 If we have the same domain and same quantifier for both variables, we can abbreviate the notation:
 $$\forall x,y\in \mathbb{R}, P(x, y)$$
 $$\exists x,y \in \mathbb{R},P(x, y)$$
-Negation:
+Negation:   
 ![[Screenshot 2025-09-05 at 11.18.59 AM.png]]
 
-Assignment 1
+Assignment 1 
 Q1
 a)S
 b)N
