@@ -68,8 +68,15 @@ c)T
 d)F
 
 Q3 
-a) $\exists a \in \mathbb{Z}, (a-5)^2 < 0$
-b)$\forall \mathbb{\theta} \in \mathbb{R}, \exists \mathbb{\alpha} \in \mathbb{R}, \sin(\mathbb{\theta}) \neq \cos\mathbb(\alpha)$ 
+a) Solution:
+	We know that $\neg(\forall x\in X, P(x)) \equiv \exists x \in X \neg(P(x))$,
+	we have $\neg(\forall a \in \mathbb{Z}, (a-5)^2\geq_{0}) \equiv \exists a \in \mathbb{Z}, (a-5)^2 < 0$$
+	Thus, the answer is: $\exists a \in \mathbb{Z}, (a-5)^2 < 0$
+b)Solution:
+	Similarly, $\neg(\exists x \in X, \forall y \in Y, Q(x, y)) \equiv \forall x \in X, \exists y \in Y, \neg(Q(x, y))$
+	we have $\neg(\exists \theta\in \mathbb{R}, \forall \alpha \in \mathbb{R}, \sin(\theta)=\cos(\alpha)) \equiv \forall \mathbb{\theta} \in \mathbb{R}, \exists \mathbb{\alpha} \in \mathbb{R}, \sin(\mathbb{\theta}) \neq \cos\mathbb(\alpha)$
+	Thus, the answer is: 
+	$\forall \mathbb{\theta} \in \mathbb{R}, \exists \mathbb{\alpha} \in \mathbb{R}, \sin(\mathbb{\theta}) \neq \cos\mathbb(\alpha)$ 
 
 Q4
 a) $f(x) = \sin(x); f(x) \in [-1,1]$
@@ -83,10 +90,10 @@ d)Open sentence depending on $w$
 e)Statement is True
 
 Q6) 
-a)$\forall x, y \in S, P(x, y)$ with domain $\mathbb{Q}_{>0}$ s.t. $P_{4}=xy \in S$
-b)$\forall x \in S, \exists y \in S, P(x, y)$ with domain $\mathcal{T}=\{-1, 0, 1\}$ s.t. $P_{3}: \sin\left( \frac{\pi y}{2} \right) = |x|$
-c)$\exists x \in S, \forall y \in S, P(x, y)$ with domain $\mathbb{R}$ s.t. $P_{2}=y^2\geq x$ 
-d)$\exists x, y \in S$ with domain $\mathcal{U}=\{3, \frac{1}{3}\}$ s.t. $P_{1}(x, y):x=27^y$
+a)$\forall x, y \in S, P(x, y)$ with domain $\mathbb{Q}_{>0}$, $P_{4}=xy \in S$
+b)$\forall x \in S, \exists y \in S, P(x, y)$ with domain $\mathcal{T}=\{-1, 0, 1\}$, $P_{3}: \sin\left( \frac{\pi y}{2} \right) = |x|$
+c)$\exists x \in S, \forall y \in S, P(x, y)$ with domain $\mathbb{R}$,  $P_{2}=y^2\geq x$ 
+d)$\exists x, y \in S$ with domain $\mathcal{U}=\{3, \frac{1}{3}\}$, $P_{1}(x, y):x=27^y$
 
 7)
 a) True

@@ -58,8 +58,8 @@ $$
 	1) $f(x) = \frac{x}{x^2-x} = \frac{x}{(x-1)(x)}; x\neq 0, 1$   
 		Therefore the domain should be $x\in \mathbb{R} \setminus \{0\}$, alternatively $x \in (\infty, 0) \cup (0, 1)\cup (1, \infty)$   
 	2) The domain of $\cos(x)$ is $R$ with range of $[-1, 1]$
-		Its. inverse is $\arccos(x)$ will have domain $[-1, 1]$ and range of $[0, \pi]$ 
-	3) . Parity questions:
+		Its inverse is $\arccos(x)$ will have domain $[-1, 1]$ and range of $[0, \pi]$ 
+	3) Parity questions:
 		1) A fn that is odd that is not a power of $x$: $\sin(x)$ 
 		2) A fn that is even that is not a power of $x$: $\cos(x)$
 		3) A fn that is neither even nor odd: $\sin(e^x)$ or $e^x$ 
