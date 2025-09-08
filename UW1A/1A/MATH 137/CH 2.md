@@ -3,7 +3,7 @@ $|x-y|\leq|x-z|+|z-y|$
 	It suggests the straight distance between two points is a direct line
 	Proof: (number line)
 		Without loss of generality, suppose $x \leq y$
-			swap $x$ and $y$, $|x-y|\leq|x-z|+|z-y|$ <=> $|y-x|\leq|x-z|+|y-z|$ <=> $|x-y|\leq |x-z|+|z-y|$   
+			swap $x$ and $y$, $|x-y|\leq|x-z|+|z-y| \iff |y-x|\leq|x-z|+|y-z| \iff  |x-y|\leq |x-z|+|z-y|$   
 		Case 1($z\leq x\leq y$):
 			$|x-y|\leq|z-y\leq|x-z|+|z-y|$ 
 		Case 2($x\leq z\leq y$):
