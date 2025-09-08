@@ -145,3 +145,21 @@ $\equiv \neg(A \implies B) \vee \neg(B \implies A)$
 $\equiv \neg(\neg(A) \vee B) \wedge \neg(A \vee \neg(B))$
 $\equiv (A\wedge \neg(B)) \wedge (\neg(A) \wedge B))$
 $\equiv \neg A \implies B \wedge \neg B \implies A$
+
+
+Q1) 
+Knowing that  $[(\neg H)\iff((\neg E)\wedge G)] \wedge [E \wedge \neg(H\wedge G)] \equiv True$
+Construction of truth table
+$$\tiny\begin{array}{|c|c|c|} 
+\hline H & E & G & \neg H & \neg E & \neg E \wedge G & \neg H \iff ((\neg E)\wedge G) & H\wedge G & \neg (H \wedge G) & E \wedge \neg(H \wedge G) & [(\neg H)\iff((\neg E)\wedge G)] \wedge [E \wedge \neg(H\wedge G)] \\
+\hline T & T & T & F & F & F & T & T & F & F & F \\
+\hline T & T & F & F & F & F & T & F & T & T & T \\
+\hline T & F & T & F & T & T & F & T & F & F & F \\
+\hline T & F & F & F & T & F & T & F & T & F & F \\
+\hline F & T & T & T & F & F & F & F & T & T & F \\
+\hline F & T & F & T & F & F & F & F & T & T & F \\
+\hline F & F & T & T & T & T & T & F & T & F & F \\
+\hline F & F & F & T & T & F & F & F & T & F & F  \\
+\hline
+\end{array}
+$$
