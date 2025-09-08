@@ -11,7 +11,7 @@
 		$$R(f) = \{f(x): x \in X\} $$
 		==**Parity of Function**==:
 			A function $f$ is called **even** if $f(-x)=f(x)   \text{ }  \forall  x\in D$ , generally symmetric on $y$ axis graphically. 
-			A function $g$ is called **old** if $g(-x) = -g(x) \text{ } \forall x\in D$, generally symmetric on $y=-x$ graphically. 
+			A function $g$ is called **old** if $g(-x) = -g(x) \text{ } \forall x\in D$, generally rotation of 180 degrees
 	0.2  
 		Examples of transcendental functions and its domain and range:  
 		 $$
@@ -43,6 +43,8 @@ e^x & \mathbb{R} & (0,\infty) \\
 \hline
 \arctan(x) & \mathbb{R} & \left(-\tfrac{\pi}{2}, \tfrac{\pi}{2}\right) \\
 \hline
+y = |x| & \mathbb{R} & [0, \infty) \\
+\hline
 \end{array}
 $$
 	0.3.1
@@ -54,6 +56,14 @@ $$
 		Inverse function  
 		Let $f:X\to Y$ be a function with domain $X$ and range $Y$. Then $f$ is invertible if $\exists f^-1: Y\to X$ so that:   
 		$$f^-1(f(x)) = x  \;  \forall x \in X \text{ and } f^-1(f(x)) = x\;  \forall x\in Y $$
+	0.3.3
+		Piecewise function
+		$$ f(x) = |x| = \begin{cases}
+		x, & \text{if } x >= 0 \\
+		-x, & \text{if } x < 0
+		\end{cases} $$
+		The quantitative value $|a-b|$ represents the shortest distance between 2 points on a number line.
+		
 	Examples:
 	1) $f(x) = \frac{x}{x^2-x} = \frac{x}{(x-1)(x)}; x\neq 0, 1$   
 		Therefore the domain should be $x\in \mathbb{R} \setminus \{0\}$, alternatively $x \in (\infty, 0) \cup (0, 1)\cup (1, \infty)$   
