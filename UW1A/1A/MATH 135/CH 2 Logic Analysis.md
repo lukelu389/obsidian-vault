@@ -16,21 +16,21 @@ $$
 **Compound Statement** is a statement composed of several individual statement, each of which is called component statement
 	$\vee$ is "or", is disjunction
 	$\wedge$ means "and", is a conjunction
-	$\implies$ means "implies", is an implication
 	$$\begin{array}{|c|c|c|}
 \hline 
-A & B & A \vee B & A \wedge B & A \implies B \\
+A & B & A \vee B & A \wedge B \\
 \hline
-T & T & T & T & ?  \\
+T & T & T & T  \\
 \hline
-T & F & T & F & ? \\
+T & F & T & F  \\
 \hline 
-F & T & T & F & ? \\
+F & T & T & F  \\
 \hline
-F & F & F & F & ?  \\
+F & F & F & F  \\
 \hline
 \end{array}
 $$
+
 
 **Logical Laws**
 
@@ -78,16 +78,70 @@ $\implies$ is an implication meaning:
 	B whenever A
 	A is a sufficient condition of B
 
-Commutative, Associative, and Distributive properties still apply on implications
+*Commutative, Associative, and Distributive properties still apply on implications*
 
-$A \implies B \equiv \neg(A) \vee B$
-
-$$\begin{array}{|c|c|c|}
-\hline A & B & A \implies B \\
-\hline T & T & T \\
-\hline T & F & F \\
-\hline F & T & T  \\
-\hline F & F & T \\
+$(A \implies B) \equiv (\neg A \vee B)$
+$$\begin{array}{|c|c|c|c|c|}
+\hline A & B & A \implies B & \neg A & (\neg A\vee B) \\
+\hline T & T & T & F & T\\
+\hline T & F & F & F & F\\
+\hline F & T & T & T & T\\
+\hline F & F & T & T & T\\
 \hline
 \end{array}$$
+so $\neg A \implies B \equiv \neg(\neg A \vee B) \equiv A \wedge \neg(B)$
 
+Practice:
+	$((A \vee B)\implies C) \equiv (A \implies C)\wedge (B\implies C)$
+$$\begin{array}{|c|c|c|c|c|c|c|}
+\hline A & B & C & A \vee B & (A \vee B)\implies C & A \implies C & B \implies C & (A \implies C) \wedge (B \implies C)B\\
+\hline T & T & T & T & T & T & T & T \\
+\hline T & T & F & T & F & F & T & F \\
+\hline T & F & T & T & T & T & T & T \\
+\hline T & F & F & T & F & F & F & F \\
+\hline F & T & T & T & T & T & T & T \\
+\hline F & T & F & T & F & T & F & F \\
+\hline F & F & T & F & T & T & T & T \\
+\hline F & F & F & F & T & T & T & T \\
+\hline
+\end{array}
+$$
+
+**Converse**
+$B \implies A$ is called the **converse** of $A \implies B$
+
+**Contrapositive**
+$(\neg B) \implies \neg(A)$ is called the **contrapositive** of $A \implies B$
+
+$$\begin{array}{|c|c|c|c|c|c|}
+\hline A & B & A \implies B & B \implies A & \neg A & \neg B & (\neg B) \implies (\neg A) \\
+\hline T & T & T & T & F & F & T \\
+\hline T & F & F & T & F & T & F \\
+\hline F & T & T & F & T & F & T \\
+\hline F & F & T & T & T & T & T \\
+\hline
+\end{array}$$
+Examples:
+1) If $x>y$, then $x\geq y$
+2) Converse: If $x\geq y$, then $x>y$
+3) Contrapositive: If $x < y$, then $x\leq y$
+
+
+**If and Only If**
+$\iff$ means "if and only if"
+
+$$\begin{array}{|c|c|c|c|c|c|}
+\hline A & B & A \implies B & B \implies A & A \iff B & (A \implies B) \wedge (B \implies A) \\
+\hline T & T & T & T & T & T \\
+\hline T & F & F & T & F & F \\
+\hline F & T & T & F & F & F \\
+\hline F & F & T & T & T & T \\
+\hline
+\end{array}
+$$
+What is $\neg(A \iff B)$ ?
+$\equiv \neg ((A \implies B) \wedge (B \implies A))$
+$\equiv \neg(A \implies B) \vee \neg(B \implies A)$ 
+$\equiv \neg(\neg(A) \vee B) \wedge \neg(A \vee \neg(B))$
+$\equiv (A\wedge \neg(B)) \wedge (\neg(A) \wedge B))$
+$\equiv \neg A \implies B \wedge \neg B \implies A$
