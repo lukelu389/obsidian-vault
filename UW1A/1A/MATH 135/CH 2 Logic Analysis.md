@@ -70,3 +70,24 @@ $$\begin{array}{|c|c|c|c|c|c|c|}
 \hline F & F & F & F & F & F & F & F \\
 \hline
 \end{array}$$
+
+**Implications**
+$\implies$ is an implication meaning:
+	B if A
+	B when A
+	B whenever A
+	A is a sufficient condition of B
+
+Commutative, Associative, and Distributive properties still apply on implications
+
+$A \implies B \equiv \neg(A) \vee B$
+
+$$\begin{array}{|c|c|c|}
+\hline A & B & A \implies B \\
+\hline T & T & T \\
+\hline T & F & F \\
+\hline F & T & T  \\
+\hline F & F & T \\
+\hline
+\end{array}$$
+
