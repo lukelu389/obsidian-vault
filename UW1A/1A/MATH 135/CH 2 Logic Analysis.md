@@ -148,6 +148,7 @@ $\equiv \neg A \implies B \wedge \neg B \implies A$
 
 
 Q1) 
+a)
 Knowing that  $[(\neg H)\iff((\neg E)\wedge G)] \wedge [E \wedge \neg(H\wedge G)] \equiv True$
 Construction of truth table
 $$\tiny\begin{array}{|c|c|c|} 
@@ -163,3 +164,41 @@ $$\tiny\begin{array}{|c|c|c|}
 \hline
 \end{array}
 $$
+b)
+$[((\neg S)\vee K)\implies(W \wedge S)] \equiv [(W \vee(\neg K))\wedge S]$
+
+$$
+\begin{array}{|c|c|c|}
+\hline S & K & W & \neg S & \neg K & \neg S \vee K & W \wedge S & (\neg S\vee K) \implies (W \wedge S) & W \vee (\neg K) & (W \vee \neg K) \wedge S \\
+\hline T & T & T & F & F & F & T & T & T & T \\
+\hline T & T & F & F & F & T & F & F & F & F  \\
+\hline T & F & T & F & T & F & T & T & T & T \\
+\hline T & F & F & F & T & F & F & T & T & T \\
+\hline F & T & T & T & F & T & F & F & T & F  \\
+\hline F & T & F & T & F & T & F & F & F & F  \\
+\hline F & F & T & T & T & T & F & F & T & F \\
+\hline F & F & F & T & T & T & F & F & T & F \\
+\hline
+\end{array}
+
+$$
+Since each element of the column of $(\neg S \vee K) \implies (W \wedge S)$ holds the exact same truth value as the column $[(W\vee(\neg K)) \wedge S]$. We conclude that these two logical expressions are logically equivalent, that is $[((\neg S)\vee K)\implies(W \wedge S)] \equiv [(W \vee(\neg K))\wedge S]$
+
+Q2)
+a) $a+b\leq 5$
+b) $(a\leq 2) \vee (b\leq 3)$
+c) The logical expression $J(a, b)$ says that $a+b\leq 5 \implies (a\leq 2) \vee (b \leq 3)$
+The converse will then be $K(a, b)$, which is $(a\leq 2) \vee (b \leq 3) \implies a+b\leq 5$
+$\forall a, b \in R, K(a, b)$ is False
+d)The contrapositive of $J(a, b)$ is $L(a, b) \equiv (a > 2) \wedge (b> 3) \implies a+b>5$
+$\forall a, b \in R, L(a, b)$ is True
+e)$\exists a, b \in R, (a+b\leq 5) \wedge [(a>2)\wedge(b>3)]$ 
+$\neg J(a, b)\equiv$ True
+f)False
+
+Q3)
+Q4)
+Q5)
+Q6)
+
+
