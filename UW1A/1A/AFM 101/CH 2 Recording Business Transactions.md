@@ -43,7 +43,7 @@ $$\small\begin{array}{|c|c|c|}
 \hline 2 & \text{Supplies: + 800} & \text{Accounts Payable: + 800} & - \\
 \hline 4 & \text{Cash: - 20000; Land: + 20000 } & - & - \\
 \hline 6 & \text{Cash: + 5000} & - & \text{Service Revenue: + 5000} \\
-\hline ???9 & \text{Cash: - 100} & \text{Accounts Payable: - 100} & - \\
+\hline 9 & \text{Cash: - 100} & \text{Accounts Payable: - 100} & - \\
 \hline 17 & \text{Account Receivable: + 1500} & - & \text{Service Revenue: + 1500} \\
 \hline 23 & \text{Cash: + 1000; Accounts Receivable: -1000} & - & - \\
 \hline 31 & \text{Cash: - 1500} & - & \text{Salary: - 1000; Rent: -500}\\
