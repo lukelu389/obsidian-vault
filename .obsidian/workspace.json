@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Values and Expressions"
             }
+          },
+          {
+            "id": "3180dfbc2497ecf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UW1A/1A/AFM 101/CH 1 Financial Statements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH 1 Financial Statements"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,8 +211,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88d74444247d721f",
+  "active": "3180dfbc2497ecf8",
   "lastOpenFiles": [
+    "UW1A/1A/CS 135/Values and Expressions.md",
     "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
     "UW1A/1A/MATH 135/Language_and_Proofs_in_Algebra__An_Introduction_Version_1_4_2__F25_.pdf",
     "UW1A/1A/MATH 135/CH 1.md",
