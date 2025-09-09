@@ -200,5 +200,7 @@ Q3)
 Q4)
 Q5)
 Q6)
-
+a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
+b)$\neg[\forall \theta \in \mathbb{R}, S(\theta)\iff V(\theta)]$
+c)
 
