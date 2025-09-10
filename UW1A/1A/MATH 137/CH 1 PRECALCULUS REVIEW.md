@@ -55,7 +55,7 @@ $$
 	0.3.2
 		Inverse function  
 		Let $f:X\to Y$ be a function with domain $X$ and range $Y$. Then $f$ is invertible if $\exists f^-1: Y\to X$ so that:   
-		$$f^-1(f(x)) = x  \;  \forall x \in X \text{ and } f^-1(f(x)) = x\;  \forall x\in Y $$
+		$$f^-1(f(x)) = x  ,  \forall x \in X \text{ and } f^-1(f(x)) = x,  \forall x\in Y $$
 	0.3.3
 		Piecewise function
 		$$ f(x) = |x| = \begin{cases}

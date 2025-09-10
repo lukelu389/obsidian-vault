@@ -35,8 +35,7 @@
               "title": "CH 2 Logic Analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b515cf887e7906fa",
@@ -183,10 +181,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33643cea6e277165",
+  "active": "f33c2cce79d16560",
   "lastOpenFiles": [
-    "UW1A/1A/MATH 135/CH 3 Proving Mathematical Statements.md",
     "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
+    "UW1A/1A/MATH 135/CH 3 Proving Mathematical Statements.md",
     "UW1A/1A/MATH 137/CH 1 PRECALCULUS REVIEW.md",
     "UW1A/1A/MATH 137/CH 2.md",
     "Screenshot 2025-09-10 at 11.29.49 AM.png",
