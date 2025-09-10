@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9ffd7c3f45af1442",
+        "id": "bef71d0e14585aea",
         "type": "tabs",
         "children": [
           {
-            "id": "9e7683799f30e236",
+            "id": "f33c2cce79d16560",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
+                "file": "UW1A/1A/MATH 137/CH 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH 2 Logic Analysis"
-            }
-          },
-          {
-            "id": "f416de383dd67a80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CH 2 Logic Analysis"
-            }
-          },
-          {
-            "id": "88d74444247d721f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UW1A/1A/CS 135/Values and Expressions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Values and Expressions"
-            }
-          },
-          {
-            "id": "3180dfbc2497ecf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UW1A/1A/AFM 101/CH 1 Financial Statements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CH 1 Financial Statements"
-            }
-          },
-          {
-            "id": "8f59d863b91dbdd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UW1A/1A/AFM 101/CH 2 Recording Business Transactions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CH 2 Recording Business Transactions"
+              "title": "CH 2"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,27 +168,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f59d863b91dbdd4",
+  "active": "f33c2cce79d16560",
   "lastOpenFiles": [
+    "Screenshot 2025-09-10 at 11.29.49 AM.png",
+    "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
+    "UW1A/1A/MATH 135/CH 3 Proving Mathematical Statements.md",
+    "UW1A/1A/MATH 135/MATH_135.pdf",
+    "UW1A/1A/MATH 137/MATH_137_Lecture_1 Filled.pdf",
+    "UW1A/1A/MATH 137/MATH_137.pdf",
+    "UW1A/1A/MATH 135/CH 3 Proving Mathematical Statements",
+    "UW1A/1A/MATH 137/CH 1 PRECALCULUS REVIEW.md",
+    "UW1A/1A/MATH 137/MATH_137_Lecture_3 Filled.pdf",
+    "UW1A/1A/MATH 137/CH 2.md",
+    "UW1A/1A/CS 135/Values and Expressions.md",
+    "UW1A/1A/AFM 101/CH 1 Financial Statements.md",
+    "UW1A/1A/AFM 101/CH 2 Recording Business Transactions.md",
     "UW1A/1A/Screenshots/Screenshot 2025-09-09 at 2.13.04 PM.png",
     "README.md",
     "UW1A/1A/Screenshots/Screenshot 2025-09-09 at 2.10.57 PM.png",
     "UW1A/1A/Screenshots/Screenshot 2025-09-09 at 1.40.11 PM.png",
-    "UW1A/1A/AFM 101/CH 2 Recording Business Transactions.md",
-    "UW1A/1A/AFM 101/CH 1 Financial Statements.md",
     "Untitled.canvas",
-    "UW1A/1A/CS 135/Values and Expressions.md",
-    "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
-    "UW1A/1A/MATH 135/Language_and_Proofs_in_Algebra__An_Introduction_Version_1_4_2__F25_.pdf",
     "UW1A/1A/MATH 135/CH 1.md",
     "Untitled 1.canvas",
-    "UW1A/1A/MATH 137/CH 1 PRECALCULUS REVIEW.md",
-    "UW1A/1A/MATH 137/MATH_137_Lecture_3 Filled.pdf",
-    "UW1A/1A/MATH 137/MATH_137_Lecture_1 Filled.pdf",
-    "UW1A/1A/MATH 137/CH 2.md",
-    "UW1A/1A/MATH 137/MATH_137.pdf",
     "UW1A/1A/Welcome.md",
-    "Untitled",
     "UW1A/1A/Screenshots/Screenshot 2025-09-08 at 11.02.30 AM.png",
     "UW1A/1A/MATH 135/W1.pdf",
     "UW1A/1A/Screenshots/Screenshot 2025-09-04 at 1.41.42 PM.png",

@@ -1,5 +1,5 @@
 
-**Truth Tables and Negation**
+### Truth Tables and Negation
 	$A$ is a statement with assigned truth value and can be manipulated as treated as logical expression using logical operators(e.g. $\neg, \vee, \wedge, \implies$).
 
 $$
@@ -13,7 +13,8 @@ F & T & F \\
 \hline 
 \end{array}
 $$
-**Compound Statement** is a statement composed of several individual statement, each of which is called component statement
+### Compound Statement 
+is a statement composed of several individual statement, each of which is called component statement
 	$\vee$ is "or", is disjunction
 	$\wedge$ means "and", is a conjunction
 	$$\begin{array}{|c|c|c|}
@@ -31,8 +32,7 @@ F & F & F & F  \\
 \end{array}
 $$
 
-
-**Logical Laws**
+### Logical Laws
 
 1) De Morgan's Law (DML)
 	For statement variables $A \text{ and } B$
@@ -71,7 +71,7 @@ $$\begin{array}{|c|c|c|c|c|c|c|}
 \hline
 \end{array}$$
 
-**Implications**
+### Implications
 $\implies$ is an implication meaning:
 	B if A
 	B when A
@@ -107,10 +107,10 @@ $$\begin{array}{|c|c|c|c|c|c|c|}
 \end{array}
 $$
 
-**Converse**
+### Converse
 $B \implies A$ is called the **converse** of $A \implies B$
 
-**Contrapositive**
+### Contrapositive
 $(\neg B) \implies \neg(A)$ is called the **contrapositive** of $A \implies B$
 
 $$\begin{array}{|c|c|c|c|c|c|}
@@ -127,7 +127,7 @@ Examples:
 3) Contrapositive: If $x < y$, then $x\leq y$
 
 
-**If and Only If**
+### If and Only If
 $\iff$ means "if and only if"
 
 $$\begin{array}{|c|c|c|c|c|c|}
@@ -146,6 +146,7 @@ $\equiv \neg(\neg(A) \vee B) \wedge \neg(A \vee \neg(B))$
 $\equiv (A\wedge \neg(B)) \wedge (\neg(A) \wedge B))$
 $\equiv \neg A \implies B \wedge \neg B \implies A$
 
+  
 
 Q1) 
 a)
@@ -197,10 +198,12 @@ $\neg J(a, b)\equiv$ True
 f)False
 
 Q3)
+a) Let $x$ be the smallest of the four consecutive integers, then the four consecutive integers are $x, x+1, x+2, x+3$. 
+We compute their average: $\frac{x + (x+1)+(x+2)+(x+3)}{4} = \frac{4x+6}{4}$
+Factor 
 Q4)
 Q5)
 Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
 b)$\neg[\forall \theta \in \mathbb{R}, S(\theta)\iff V(\theta)]$
 c)
-
