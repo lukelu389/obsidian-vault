@@ -1,4 +1,5 @@
 ### Triangle Inequality
+
 $$|x-y|\leq|x-z|+|z-y|$$
 ![[Screenshot 2025-09-10 at 11.29.49 AM.png]]
 	It suggests the straight distance between two points is a direct line
