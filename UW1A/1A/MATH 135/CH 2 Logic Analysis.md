@@ -198,10 +198,19 @@ $\neg J(a, b)\equiv$ True
 f)False
 
 Q3)
-a) Let $x$ be the smallest of the four consecutive integers, then the four consecutive integers are $x, x+1, x+2, x+3$. 
+a) 
+True
+Let $x$ be the smallest of arbitrary four consecutive integers, those consecutive integers are can be expressed as $x, x+1, x+2, x+3$. 
 We compute their average: $\frac{x + (x+1)+(x+2)+(x+3)}{4} = \frac{4x+6}{4}$
-Factor 
+Factor $\frac{4x+6}{4}  = \frac{4\left( x+\frac{3}{2} \right)}{4} = x+ \frac{3}{2}$
+Since $x$ is an integer and $\frac{3}{2}$ is a rational number, their sum remains a rational number.
+Thus the average of four consecutive integer is always a non-integer.
+b)
+
+
 Q4)
+$\forall x \in \mathbb{R}, 3|x+8|-5|2x-4|\leq 30$
+$3|x+8|-5|2x-4|\leq 30 \iff 3|x+8|-10|x-2|\leq 30 \iff 3|x+8|-10|x-2|-30\leq 0$Let's break down $x$ into different intervals in $\mathbb{R}$ 
 Q5)
 Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
