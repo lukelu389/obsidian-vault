@@ -208,20 +208,33 @@ Thus the average of four consecutive integer is always a non-integer.
 b)
 
 
-Q4)
+Q4) tbv
 $\forall x \in \mathbb{R}, 3|x+8|-5|2x-4|\leq 30$
 $3|x+8|-5|2x-4|\leq 30 \iff 3|x+8|-10|x-2|\leq 30 \iff 3|x+8|-10|x-2|-30\leq 0$
-Let's break down $x$ into different intervals in $\mathbb{R}$ 
+Let's change this into piecewise function with with 
+
+$$\begin{cases}
+7x-74 \leq 8, & \text{if }x< -8 \\
+13x-12, & \text{if } -8\leq x<2 \\
+-7x-2, & \text{if } x > 2
+\end{cases}$$
+
 Case 1($x<-8$):
-The function becomes  $-3x-24+10x-20-30 \leq 0 \iff 7x-74 \leq 0 \iff 7x \leq 74 \iff x < \frac{74}{4}$ 
+The function becomes  $-3x-24+10x-20-30 \leq 0 \iff 7x-74 \leq 0 \iff 7x \leq 74 \iff x \leq \frac{74}{7}$ 
 Case 2($-8\leq x\leq 2$):
 The function becomes
 $3x+8+10x-2-30\leq 0 \iff 13x-12 \leq 0 \iff x \leq \frac{12}{13}$
 Case 3($x>2$):
-$3x+8-10x+20-30 \leq 0 \iff -7x-2 \leq 0 \iff x\leq-\frac{2}{7}$
+$3x+8-10x+20-30 \leq 0 \iff -7x-2 \leq 0 \iff x\geq-\frac{2}{7}$
 
+$3|x+8|-5|2x-4|\leq 30 \iff x \in (-\frac{\infty,74}{4}] \cup (-\infty, \frac{12}{13}] \cup [-\frac{2}{7}, \infty)$ 
+Since the set $(-\frac{\infty,74}{4}] \cup (-\infty, \frac{12}{13}] \cup [-\frac{2}{7}, \infty)$ is $\mathbb{R}$, 
+Thus we have shown that $\forall x \in \mathbb{R}, 3|x+8|-5|2x-4|\leq 30$
 
 Q5)
+$\forall a, b, c \in \mathbb{R}, a^2+14b^2+4c^2-6ab-7bc\geq b(4b-3c)$
+Let
+
 Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
 b)$\neg[\forall \theta \in \mathbb{R}, S(\theta)\iff V(\theta)]$

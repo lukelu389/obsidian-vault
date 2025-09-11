@@ -49,7 +49,8 @@
               "title": "Functions"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,11 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e510c34a00d0d598",
+  "active": "853ca5b83017b768",
   "lastOpenFiles": [
+    "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
     "UW1A/1A/CS 135/Values and Expressions.md",
     "UW1A/1A/CS 135/Functions.md",
-    "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
     "UW1A/1A/MATH 135/CH 3 Proving Mathematical Statements.md",
     "UW1A/1A/MATH 137/MATH_137_Lecture_3 Filled.pdf",
     "UW1A/1A/MATH 137/CH 2.md",
