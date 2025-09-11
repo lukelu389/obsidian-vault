@@ -210,7 +210,17 @@ b)
 
 Q4)
 $\forall x \in \mathbb{R}, 3|x+8|-5|2x-4|\leq 30$
-$3|x+8|-5|2x-4|\leq 30 \iff 3|x+8|-10|x-2|\leq 30 \iff 3|x+8|-10|x-2|-30\leq 0$Let's break down $x$ into different intervals in $\mathbb{R}$ 
+$3|x+8|-5|2x-4|\leq 30 \iff 3|x+8|-10|x-2|\leq 30 \iff 3|x+8|-10|x-2|-30\leq 0$
+Let's break down $x$ into different intervals in $\mathbb{R}$ 
+Case 1($x<-8$):
+The function becomes  $-3x-24+10x-20-30 \leq 0 \iff 7x-74 \leq 0 \iff 7x \leq 74 \iff x < \frac{74}{4}$ 
+Case 2($-8\leq x\leq 2$):
+The function becomes
+$3x+8+10x-2-30\leq 0 \iff 13x-12 \leq 0 \iff x \leq \frac{12}{13}$
+Case 3($x>2$):
+$3x+8-10x+20-30 \leq 0 \iff -7x-2 \leq 0 \iff x\leq-\frac{2}{7}$
+
+
 Q5)
 Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
