@@ -53,7 +53,7 @@ x-2, & \text{if } x\geq2\\
 ### Infinite Sequence
 An infinite sequence is a list of numbers in a definite order
 $$a_{1}, a_{2}, a_{3}, a_{4}, \dots, a_{n}, \dots$$
-where $a_{i} \in \mathbb{R} for i \in \mathbb{N}$. We use notation $\{a_{n}\}^{\infty}_{n=0}$
+where $a_{i} \in \mathbb{R} \text{ for i } \in \mathbb{N}$. We use notation $\{a_{n}\}^{\infty}_{n=0}$
 
 Let $\{a_{n}\}$ be a sequence of real numbers and $n_1< n_2< \dots$ be increasing sequence of natural numbers$$a_{n_{1}}, a_{n_{2}}, a_{n_{3}}\dots$$ denoted $\{a_{n_{k}}\}$ is called a subsequence of $\{a_{n}\}$.
 
