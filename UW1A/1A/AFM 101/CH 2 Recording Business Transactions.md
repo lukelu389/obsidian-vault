@@ -24,9 +24,22 @@ $$
 \end{array}  
 $$
 
-The Connection between the Three Statements:
+##### The Connection between the Three Statements:
 ![[Screenshot 2025-09-09 at 1.40.11 PM.png]]
-### On Accounts
+
+
+### Chart of Accounts
+
+$$
+\begin{array}{|c|c|c|}
+\hline \text{Assets} & \text{Liabilities} & \text{Shareholder's Equity}\\
+\hline \text{Cash} & \text{Accounts Payable} & \text{Common Shares} \\
+\hline \text{Office SUpplies}  & \text{ Notes Payable} & \text{Dividends} \\
+\hline \text{Land} & - & \text{Retained Earnings} \\
+\hline
+\end{array}
+$$
+### On Accounts Usages
 There are four ways "on account" is used in transactions:
 1) Performed services *on account* $\implies$ A/R INCREASES
 2) Collected *on account* $\implies$ A/R DECREASES
@@ -34,9 +47,69 @@ There are four ways "on account" is used in transactions:
 4) Paid *on account* $\implies$ A/P DECREASES
 
 
-Practice:
+### ==T-Accounts==
 
-Which Accounts? A = L + SE
+$$
+
+\begin{array}{c|c} 
+\hline \text{LEFT SIDE} & \text{RIGHT SIDE} \\
+\text{DEBIT} & \text{CREDIT}
+
+\end{array}
+$$
+
+- **DEBIT = CREDIT**, alternatively *Left Side = Right Side*
+- **CASH in DEBIT** generally
+- **A/P in CREDIT** generally
+
+#### Summary on T-Accounts
+
+![[Screenshot 2025-09-09 at 2.10.57 PM.png]]
+
+More specifically
+![[Screenshot 2025-09-09 at 2.13.04 PM.png]]
+
+A = L + SE:
+	![[Screenshot 2025-09-11 at 1.24.38 PM.png]]
+
+#### Normal Balances of Accounts
+
+### Journal Entry
+- **__ means indent
+$$
+\begin{array}{|c|c|}
+\hline \text{Date} & \text{Accounts and Explanation} & \text{Debit} & \text{Credit} & \text{Explanation} \\
+\hline \text{Apr.1} & \text{Cash} & 50000 \\
+\hline & \text{\_\_Common shares} & & 50000 \\
+\hline & & & & \text{Issued Common Shares} \\
+\hline
+\end{array}
+$$
+
+### Trial Balance
+----------------------------------Company Name---------------------------
+-----------------------------------Trial Balance -----------------------------
+----------------------------------April 30, 2000-----------------------------
+$$
+\begin{array}{|c|c|}
+\hline \text{Account Title} & \text{Debit} & \text{Credit}\\
+\hline \text{Cash} & 33300 \\
+\hline \text{Accounts receivable} & 200 \\
+\hline \text{Supplies} & 3700 \\
+\hline \text{Land} & 1800 \\
+\hline \text{Accounts payable} & & 1800 \\
+\hline \text{Common shares} & & 50000 \\
+\hline \text{Dividends} & 2100 \\
+\hline \text{Service Revenue} & & 10000 \\
+\hline \text{Rent Expenses} & 1100 \\
+\hline \text{Salary Expense} & 1200 \\
+\hline \text{Utilities Expenses} & 400 \\
+\hline \text{Total} & 61800 & 61800 \\
+\hline
+\end{array} 
+$$  
+
+Practice:
 $$\small\begin{array}{|c|c|c|}
 \hline \text{Date} & \text{A} & \text{L} & \text{SE} \\
 \hline 1 & \text{Cash: + 25000} & - & \text{Common Shares: + 25000}  \\
@@ -50,27 +123,76 @@ $$\small\begin{array}{|c|c|c|}
 \hline
 \end{array}
 $$
+###### T Accounts:
 
-
-### ==T Accounts==
-
+1) Cash:
 $$
-
-\begin{array}{c|c} 
-\hline \text{LEFT SIDE} & \text{RIGHT SIDE} \\
-\hline \text{DEBIT} & \text{CREDIT}
-
+\begin{array}{c|c}
+\hline 25000 \text{ 10.01} &  \\
+& 20000 \text{ 10.04} \\
+5000 \text{ 10.06} \\
+& 100 \text{ 10.09} \\
+1500 \text{ 10.17} \\
+1000 \text{ 10.23} &  \\
+& 1500 \text{ 10.31} \\
+\hline 32500 & 21500 \\
+\hline \text{Balance: 11000}
+\end{array}
+$$  
+2) Common Shares:
+$$
+\begin{array}{c|c}
+\hline  & 25000 \text{ 10.01}
 \end{array}
 $$
+3) Accounts Receivable:
+$$
+\begin{array}{c|c}
+\hline 1500 \text{ 10.17}& \\
+& 1000 \text{ 10.23} \\ \\
+\hline \text{Balance: 500}
+\end{array}
+$$
+4) Accounts Payable:
 
-- **DEBIT = CREDIT**, alternatively *Left Side = Right Side*
-- **CASH in DEBIT** generally
-- **A/P in CREDIT** generally
+$$
+\begin{array}{c|c}
+\hline & 800 \text{ 10.02} \\
+100 \text{ 10.09} \\
+\hline & \text{Balance: 700}
+\end{array}
+$$  
+5) Office Supplies
+$$
+\begin{array}{c|c}
+\hline 800 \text{ 10.02} & 
+\end{array}
+$$ 
+6) Land:
 
-#### Summary
+$$
+\begin{array}{c|c}
+\hline 20000 \text{ 10.04} & 
+\end{array}
+$$
+7) Service Revenue
 
-![[Screenshot 2025-09-09 at 2.10.57 PM.png]]
-
-More specifically
-![[Screenshot 2025-09-09 at 2.13.04 PM.png]]
-
+$$
+\begin{array}{c|c}
+\hline
+& 5000 \text{ 10.06} \\
+\end{array}
+$$
+8) Salary Expenses
+$$
+\begin{array}{c|c}
+\hline
+1000 \text{ 10.31}& 
+\end{array}
+$$
+9) Rent Expenses
+$$
+\begin{array}{c|c}
+\hline 500 \text{ 10.31}&
+\end{array}
+$$  
