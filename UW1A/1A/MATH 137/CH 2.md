@@ -69,9 +69,9 @@ What is happening to the sequence $\{1/n\}$ and $\{(-1)^n\}$ as $n$ gets larger 
 Let $\{a_{n}\}$ be a sequence and $L \in \mathbb{R}$. We say that $L$ is the **limit** of $\{a_{n}\}$ if $\forall \epsilon > 0, \exists \mathbb{N}$ s.t. if $n>N$, then
 $$
 |a_{n}-L|<\epsilon
-$$
+$$ 
 If such an $L$ exists, we say $\{a_{n}\}$ **converges to** $L$ and write
-$$\lim_{n \to -\infty} a_{n} = L \text{ or } a_{n} \to L$$If no such $L$ exists, then we say $\{a_{n}\}$ **diverges**.
+$$\lim_{n \to \infty} a_{n} = L \text{ or } a_{n} \to L$$If no such $L$ exists, then we say $\{a_{n}\}$ **diverges**.
 
 Example:
 We want to show that $\lim_{n \to \infty} \frac{1}{\sqrt[3]{n}} = 0$. For now, we suppose $\epsilon = \frac{1}{1000}$
