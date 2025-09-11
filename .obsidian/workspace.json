@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e510c34a00d0d598",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CH 2 Logic Analysis"
-            }
-          },
-          {
             "id": "139977151c9d9e68",
             "type": "leaf",
             "state": {
@@ -36,17 +22,31 @@
             }
           },
           {
+            "id": "e510c34a00d0d598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CH 2 Logic Analysis"
+            }
+          },
+          {
             "id": "853ca5b83017b768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UW1A/1A/CS 135/Functions.md",
+                "file": "UW1A/1A/CS 135/Functions & Inexact Numbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functions"
+              "title": "Functions & Inexact Numbers"
             }
           }
         ],
@@ -200,8 +200,10 @@
   "active": "853ca5b83017b768",
   "lastOpenFiles": [
     "UW1A/1A/MATH 135/CH 2 Logic Analysis.md",
+    "UW1A/1A/CS 135/Functions & Inexact Numbers.md",
+    "Screenshot 2025-09-11 at 11.03.36 AM.png",
+    "Screenshot 2025-09-11 at 11.03.12 AM.png",
     "UW1A/1A/CS 135/Values and Expressions.md",
-    "UW1A/1A/CS 135/Functions.md",
     "UW1A/1A/MATH 135/CH 3 Proving Mathematical Statements.md",
     "UW1A/1A/MATH 137/MATH_137_Lecture_3 Filled.pdf",
     "UW1A/1A/MATH 137/CH 2.md",
@@ -227,7 +229,6 @@
     "UW1A/1A/Screenshots/Screenshot 2025-09-04 at 1.46.19 PM.png",
     "UW1A/1A/Screenshots",
     "UW1A/1A/Screenshots/Screenshot 2025-09-05 at 11.02.48 AM.png",
-    "UW1A/1A/Screenshots/Screenshot 2025-09-05 at 11.18.59 AM.png",
     "UW1A/1A/MATH 135/LEC Sept. 5th.md"
   ]
 }

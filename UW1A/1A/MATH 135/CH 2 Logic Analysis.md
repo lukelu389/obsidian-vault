@@ -233,7 +233,11 @@ Thus we have shown that $\forall x \in \mathbb{R}, 3|x+8|-5|2x-4|\leq 30$
 
 Q5)
 $\forall a, b, c \in \mathbb{R}, a^2+14b^2+4c^2-6ab-7bc\geq b(4b-3c)$
-Let
+Let $a, b, c$ be arbitrary numbers
+Since $a, b, c$ are all real numbers, $(a-3b)$ and $(b-2c)$ are all real numbers.
+$(a-3b)^2$ and $(b-2c)^2$ are also real numbers, $(a-3b)^2+(b-2c)^2\geq 0$
+$(a-3b)^2+(b-2c)^2\geq 0 \iff a^2+9b^2+b^2+4c^2-6ab-4bc\geq 0 \iff a^2+10b^2+4c^2-6ab-4bc \geq 0 \iff a^2+14b^2+4c^2 - 6ab - 7 bc -4b^2+3bc \geq 0 \iff a^2+14b^2+4c^2-6ab-7bc-b(4b-3c) \geq 0 \iff a^2+14b^2+4c^2-6ab-7bc\geq b(4b-3c)$ 
+Thus we have proved that $\forall a, b, c \in \mathbb{R}, a^2+14b^2+4c^2-6ab-7bc\geq b(4b-3c)$ 
 
 Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
