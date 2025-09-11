@@ -7,7 +7,7 @@ $$|x-y|\leq|x-z|+|z-y|$$
 			swap $x$ and $y$, $|x-y|\leq|x-z|+|z-y| \iff |y-x|\leq|x-z|+|y-z| \iff  |x-y|\leq |x-z|+|z-y|$   
 	Proof: (number line)
 		Case 1($z\leq x\leq y$):
-			$|x-y|\leq|z-y\leq|x-z|+|z-y|$ 
+			$|x-y|\leq|z-y|\leq|x-z|+|z-y|$ 
 		Case 2($x\leq z\leq y$):
 			$|x-y|=|x-z|+|z-y|$ so $|x-y|\leq|x-z|+|z-y|$
 		Case 3($x\leq y\leq z$):
