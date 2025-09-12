@@ -16,11 +16,11 @@ $$|x-y|\leq|x-z|+|z-y|$$
 $\forall a, b \in \mathbb{R}, |a+b|\leq|a|+|b|$ 
 Proof:  
 	By Triangle Inequality, $|x-y|\leq|x-z|+|z-y|, \forall x, y, z \in \mathbb{R}$ 
-	in pa. ticular, $x= a, y = -b, z =0$ 
+	in pa.ticular, $x= a, y = -b, z =0$ 
 	becomes $|a+b|\leq|a-0|+|0-(-b)| = |a|+|b|$ 
 	
-. s it true tha.  $|a - b|\leq|a|-|b|, \forall a, b \in \mathbb{R}$ ?  
-	No,. let $a = 10, b = -9 \implies |10-(-9)|\nleq|10|-|-9|$   
+Is it true that  $|a - b|\leq|a|-|b|, \forall a, b \in \mathbb{R}$ ?  
+	No, let $a = 10, b = -9 \implies |10-(-9)|\nleq|10|-|-9|$   
 
 Examples of inequalities:  
 1) $|x-a|<\delta$ implies $x \in (a-\delta, a+\delta)$ 
@@ -28,7 +28,7 @@ Examples of inequalities:
 3) $0<|x-a|\leq\delta$ i. plies $x \in (a-\delta, a) \cup (a, a+\delta)$ 
 
 ### Practice questions:
-1) Solve 
+1) Solve $|2x-5|<3$
 	Solution interval is $(3-\frac{5}{2}, 3+\frac{5}{2})$
 2) Solve $2<|x+7|\leq {3} \implies 2<|x-(-7)\leq {3}$
 	 Solution interval is $[-10, -9)\cup(-5, -4]$ 
