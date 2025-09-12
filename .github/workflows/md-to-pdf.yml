@@ -1,0 +1,54 @@
+name: Convert Markdown notes to PDF
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}    # allow manual runs from the Actions tab
+
+permissions:
+  contents: write          # needed so the Action can commit PDFs back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+      - uses: actions/checkout@v4
+
+      - name: Install Pandoc & LaTeX engine
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          # TeXLive bits for PDF output (XeLaTeX works well with Unicode)
+          sudo apt-get install -y texlive-xetex texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra lmodern
+
+      - name: Convert all Markdown → PDF (preserve folders)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # find all .md except inside .git/.obsidian and common dot dirs
+          mapfile -d '' files < <(find . -type f -name "*.md" \
+            -not -path "./.git/*" -not -path "./.github/*" -not -path "./.obsidian/*" -print0)
+
+          for f in "${files[@]}"; do
+            out="${f%.md}.pdf"
+            mkdir -p "$(dirname "$out")"
+            echo "Converting: $f -> $out"
+            pandoc "$f" \
+              --from=gfm+tex_math_dollars+tex_math_single_backslash+raw_tex \
+              --pdf-engine=xelatex \
+              -V geometry:margin=1in \
+              -V mainfont="Latin Modern Roman" \
+              --toc \
+              -o "$out"
+          done
+
+      - name: Commit PDFs back to repo (if any changed)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A '*.pdf'
+          git commit -m "Auto-generate PDFs from Markdown" || echo "No PDF changes to commit."
+          git push
+
