@@ -3,10 +3,10 @@ name: Convert Markdown notes to PDF
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: {}    # allow manual runs from the Actions tab
+  workflow_dispatch: {}
 
 permissions:
-  contents: write          # needed so the Action can commit PDFs back
+  contents: write
 
 jobs:
   build:
@@ -14,27 +14,26 @@ jobs:
 
     steps:
       - name: Checkout repo
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
-      - name: Install Pandoc & LaTeX engine
+      - name: Install Pandoc & LaTeX
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc
-          # TeXLive bits for PDF output (XeLaTeX works well with Unicode)
           sudo apt-get install -y texlive-xetex texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra lmodern
 
-      - name: Convert all Markdown → PDF (preserve folders)
+      - name: Convert all Markdown → PDFs in /pdfs folder
         shell: bash
         run: |
-          set -euo pipefail
-          # find all .md except inside .git/.obsidian and common dot dirs
+          mkdir -p pdfs
+          # find all Markdown files (skip .git/.github/.obsidian)
           mapfile -d '' files < <(find . -type f -name "*.md" \
             -not -path "./.git/*" -not -path "./.github/*" -not -path "./.obsidian/*" -print0)
 
           for f in "${files[@]}"; do
-            out="${f%.md}.pdf"
-            mkdir -p "$(dirname "$out")"
-            echo "Converting: $f -> $out"
+            base=$(basename "${f%.md}")
+            out="pdfs/${base}.pdf"
+            echo "Converting $f → $out"
             pandoc "$f" \
               --from=gfm+tex_math_dollars+tex_math_single_backslash+raw_tex \
               --pdf-engine=xelatex \
@@ -44,11 +43,10 @@ jobs:
               -o "$out"
           done
 
-      - name: Commit PDFs back to repo (if any changed)
+      - name: Commit PDFs back to repo
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add -A '*.pdf'
-          git commit -m "Auto-generate PDFs from Markdown" || echo "No PDF changes to commit."
+          git add pdfs/*.pdf || true
+          git commit -m "Auto-generate PDFs into /pdfs" || echo "No PDF changes"
           git push
-
