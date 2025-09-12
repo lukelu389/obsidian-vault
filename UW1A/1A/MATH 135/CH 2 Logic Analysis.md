@@ -40,8 +40,15 @@ $$
 	2) $\neg(A \vee B) \equiv \neg (A) \wedge \neg (B)$
 
 2) Commutative, Associative, and Distributive Laws
-	1) Commutative:  $A \vee B \equiv B \vee A$
-
+	1) Commutative: 
+		1) $A \vee B \equiv B \vee A$
+		2) $A \wedge B \equiv B \wedge A$
+	 2) Associative:
+		1) $A \wedge (B \wedge C) \equiv (A \wedge B) \wedge C$
+		2) $A \vee (B \vee C) \equiv (A \vee B) \vee C$
+	3) Distributive:
+		1) $A \wedge (B \vee C) \equiv (A \wedge B) \vee (A \wedge C)$
+		2) $A \vee (B \wedge C) \equiv (A \vee B) \wedge (A \vee C)$ 
 
 Examples:
 1) Show using a truth table that $\neg (A \wedge B) \equiv \neg(A) \vee \neg(B)$(the proof of DML)
