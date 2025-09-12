@@ -35,7 +35,7 @@ jobs:
             out="pdfs/${base}.pdf"
             echo "Converting $f → $out"
             pandoc "$f" \
-              --from=gfm+tex_math_dollars+tex_math_single_backslash+raw_tex \
+              --from=markdown+tex_math_dollars+tex_math_single_backslash+raw_tex \
               --pdf-engine=xelatex \
               -V geometry:margin=1in \
               -V mainfont="Latin Modern Roman" \
