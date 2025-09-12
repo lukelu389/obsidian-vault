@@ -1,6 +1,6 @@
 
-### Truth Tables and Negation
-$A$ is a statement with assigned truth value and can be manipulated as treated as logical expression using logical operators(e.g. $\neg, \vee, \wedge, \implies$). 
+### Truth Tables and Negation  
+$A$ is a statement with assigned truth value and can be manipulated as treated as logical expression using logical operators(e.g. $\neg, \vee, \wedge, \implies$).   
 
 $$
 \begin{array}{|c|c|c|}
@@ -14,9 +14,9 @@ F & T & F \\
 \end{array}
 $$
 ### Compound Statement 
-is a statement composed of several individual statement, each of which is called component statement
-	$\vee$ is "or", is disjunction
-	$\wedge$ means "and", is a conjunction
+is a statement composed of several individual statement, each of which is called component statement   
+	$\vee$ is "or", is disjunction 
+	$\wedge$ means "and", is a conjunction  
 	$$\begin{array}{|c|c|c|}
 \hline 
 A & B & A \vee B & A \wedge B \\
@@ -35,12 +35,12 @@ $$
 ### Logical Laws
 
 1) De Morgan's Law (DML)
-	For statement variables $A \text{ and } B$
+	For statement variables $A \text{ and } B$  
 	1) $\neg(A \wedge B) \equiv \neg (A) \vee \neg (B)$
 	2) $\neg(A \vee B) \equiv \neg (A) \wedge \neg (B)$
 
 2) Commutative, Associative, and Distributive Laws
-     ![[Screenshot 2025-09-08 at 11.02.30 AM.png]]
+	1) Commutative:  $A \vee B \equiv B \vee A$
 
 
 Examples:

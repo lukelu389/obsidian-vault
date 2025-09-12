@@ -9,7 +9,7 @@
 		$$D(f) = \{x:f(x) \text{ is well defined\} }$$
 		The **range** of a function $f:X\to Y$ is the set.   
 		$$R(f) = \{f(x): x \in X\} $$
-		==**Parity of Function**==:
+		**Parity of Function**:
 			A function $f$ is called **even** if $f(-x)=f(x)   \text{ }  \forall  x\in D$ , generally symmetric on $y$ axis graphically.   
 			A function $g$ is called **old** if $g(-x) = -g(x) \text{ } \forall x\in D$, generally rotation of 180 degrees. 
 	0.2   
