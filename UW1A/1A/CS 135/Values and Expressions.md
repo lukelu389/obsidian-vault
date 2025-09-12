@@ -68,7 +68,7 @@ Examples:
 
 ### Boolean Expressions
 - Operators: `< > <= >= =` → return a **Bool** (`true` or `false`).
-- Logical operators: `and`, `or`, `not` (like ∧, ∨, ¬ in mathematics).
+- Logical operators: `and`, `or`, `not` 
 ### Short-circuit evaluation
 - `and` → false if any argument is false.
 - `or` → true if any argument is true.
