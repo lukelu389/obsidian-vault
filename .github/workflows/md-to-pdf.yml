@@ -40,7 +40,8 @@ jobs:
               -V geometry:margin=1in \
               -V mainfont="Latin Modern Roman" \
               --toc \
-              -o "$out"
+              -o "$out" \
+              || { echo "⚠️ Skipping $f (Pandoc failed)"; continue; }
           done
 
       - name: Commit PDFs back to repo
