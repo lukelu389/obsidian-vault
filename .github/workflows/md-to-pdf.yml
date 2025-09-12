@@ -34,14 +34,18 @@ jobs:
             base=$(basename "${f%.md}")
             out="pdfs/${base}.pdf"
             echo "Converting $f → $out"
-            pandoc "$f" \
-              --from=markdown+tex_math_dollars+tex_math_single_backslash+raw_tex \
-              --pdf-engine=xelatex \
-              -V geometry:margin=1in \
-              -V mainfont="Latin Modern Roman" \
-              --toc \
-              -o "$out" \
-              || { echo "⚠️ Skipping $f (Pandoc failed)"; continue; }
+pandoc "$f" \
+  --from=markdown+tex_math_dollars+tex_math_single_backslash \
+  --pdf-engine=xelatex \
+  -V geometry:margin=1in \
+  -V fontsize=12pt \
+  -V mainfont="TeX Gyre Pagella" \
+  -V monofont="Inconsolata" \
+  -V mathfont="TeX Gyre Pagella Math" \
+  -V linestretch=1.5 \   # 👈 this sets 1.5 spacing
+  --toc \
+  -o "$out" \
+  || { echo "⚠️ Skipping $f (Pandoc failed)"; continue; }
           done
 
       - name: Commit PDFs back to repo
