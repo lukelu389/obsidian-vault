@@ -200,15 +200,18 @@ f)False
 Q3)
 a) 
 True
-Let $x$ be the smallest of arbitrary four consecutive integers, those consecutive integers are can be expressed as $x, x+1, x+2, x+3$. 
+Let $x$ be the smallest of arbitrary four consecutive integers, those consecutive integers can be expressed as $x, x+1, x+2, x+3$. 
 We compute their average: $\frac{x + (x+1)+(x+2)+(x+3)}{4} = \frac{4x+6}{4}$
 Factor $\frac{4x+6}{4}  = \frac{4\left( x+\frac{3}{2} \right)}{4} = x+ \frac{3}{2}$
 Since $x$ is an integer and $\frac{3}{2}$ is a rational number, their sum remains a rational number.
 Thus the average of four consecutive integer is always a non-integer.
 b)
+False
+Let $x$ be the smallest of arbitrary five consecutive integers, those consecutive integers can be expressed as $x, x+1, x+2, x+3, x+4$
+We compute their average: $\frac{x+(x+1)+(x+2)+(x+3)+(x+4)}{5} = \frac{5x+10}{5} = x+2$
+Since $x$ is an integer and 2 is also an integer, $x+2$ is always an integer. That is, the average of any five consecutive integers is always an integer.
 
-
-Q4) tbv
+Q4) 
 $\forall x \in \mathbb{R}, 3|x+8|-5|2x-4|\leq 30$
 $3|x+8|-5|2x-4|\leq 30 \iff 3|x+8|-10|x-2|\leq 30 \iff 3|x+8|-10|x-2|-30\leq 0$
 Let's perform case analysis:
@@ -239,4 +242,5 @@ Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
 b)$\neg[\forall \theta \in \mathbb{R}, S(\theta)\iff V(\theta)]$
 c)
+d)
 

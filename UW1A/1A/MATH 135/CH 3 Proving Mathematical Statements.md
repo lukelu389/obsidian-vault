@@ -21,8 +21,8 @@ Example:
 		Then, $x^4 + x^2y - 5x^2y + y^2 + 3y^2 \geq 0$.
 		So, $x^4+x^2y+y^2\geq 5x^2y-3y^2$ .
 		Therefore, we have proved that $\forall x, y \in \mathbb{R}$, $x^4+x^2y+y^2\geq 5x^2y-3y^2$
-### To Disprove Universally Quantified Statement
-1) Find an element $x \in S$ for which the open sentence is false. 
+#### Disprove Universally Quantified Statement
+Find an element $x \in S$ for which the open sentence is false; that is proving an existentially quantified statement.
 Example:
 	Proof that $\forall x \in \mathbb{R}, x^2=5$
 	Proof:
@@ -30,3 +30,55 @@ Example:
 		Thus $x^2 = 0$, which is not 5.
 		Therefore $\exists x \in \mathbb{R}, x^2 \neq 5$, namely $x=0$.
 		So it is false $\forall x \in \mathbb{R}, x^2=5$
+
+### Prove Existentially Quantified Statement
+Find an element $x \in S$ for which the open sentence is true.
+
+Example 1:
+	Prove that $\exists \in \mathbb{Z}$ s.t. $\frac{m-7}{2m+4}=5$
+	Discovery:
+	$m-7 = 5(2m+4) \iff m-7 = 10m+10 \iff -27 = 9m \iff m=-3$
+	**Actual Proof**:
+		Let $m = -3$, clearly $-3 \in \mathbb{Z}$
+		and $\frac{m-7}{2m+4} = \frac{-3-7}{2(-3)+4} = \frac{-10}{-6+4}=\frac{-10}{-2} = 5$
+		Therefore, we have shown that $m \in \mathbb{Z}, \frac{m-7}{2m+4}=5$
+Example 2:
+	Prove that there exists a perfect square $k$ s.t. $k^2-\frac{31}{2}k = 8$
+	Proof:
+	Let $k = 16$, clearly, $k=16 = 4^2$
+	Also, $k^2-\frac{31}{2}k = 16^2-\frac{31}{2}(16) = 16 \left(  16-\frac{31}{2} \right) = \frac{16}{2}*1 = 8$
+	Therefore, we have shown that there exists a perfect square $k$ s.t. $k^2-\frac{31}{2}k = 8$
+
+#### Disprove Existentially Quantified Statement
+Example:
+Disprove that $\exists x \in \mathbb{R}, \cos(2x)+\sin(2x)=3$
+we need to prove $\forall x \in \mathbb{R}, \cos(2x)+\sin(2x)\neq 3$
+Let $x \in \mathbb{R}$
+Notice that $-1 \leq \cos 2x \leq 1$ and $-1 \leq \sin 2x \leq 1$
+So we can add the inequalities to get: $-2 \leq \cos 2x +\sin 2x \leq 2$
+Clearly, $\cos(2x)+\sin(2x) \neq 3$, since $3 \notin [-2,2]$
+$\therefore \forall x \in \mathbb{R}, \cos(2x)+\sin(2x) \neq 3$ 
+i.e. $\neg(\exists x \in \mathbb{R}, \cos(2x)+\sin(2x)=3)$  
+
+
+
+### Prove/Disprove Nested Quantified Statement
+Example:
+Consider the two statements:
+1) $\forall x \in \mathbb{R}, \exists y \in \mathbb{R}, x^3-y^3=1$
+2) $\exists x \in \mathbb{R}, \forall y \in \mathbb{R}, x^3-y^3=1$
+
+Prove or Disprove:
+1) This is true
+	Let $x \in \mathbb{R}$, let $y= (x^3-1)^\frac{1}{3}$
+	$x^3-y^3 = x^3-((x^3-1)^\frac{1}{3})^3$
+	$= x^3 - (x^3-1)$
+	$= x^3-x^3+1$
+	$= 1$
+	$\therefore \forall x \in \mathbb{R}, \exists y \in \mathbb{R}, x^3-y^3=1$
+2) This is false
+	We will prove the negation, that is $\forall x \in \mathbb{R}, \exists y \in \mathbb{R}, x^3-y^3 = 1$
+	Let $x \in \mathbb{R}$, let $y=x$
+	Then $x^3-y^3 = x^3-x^3=0 \neq 1$ 
+	We have shown that $\forall x \in \mathbb{R}, \exists y \in \mathbb{R}, x^3-y^3 = 1$  
+	$\therefore \exists x \in \mathbb{R}, \forall y \in \mathbb{R}, x^3-y^3=1$
