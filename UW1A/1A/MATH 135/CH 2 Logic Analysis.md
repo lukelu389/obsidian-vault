@@ -201,7 +201,7 @@ $\forall a, b \in R, K(a, b)$ is False
 d)The contrapositive of $J(a, b)$ is $L(a, b) \equiv (a > 2) \wedge (b> 3) \implies a+b>5$
 $\forall a, b \in R, L(a, b)$ is True
 e)$\exists a, b \in R, (a+b\leq 5) \wedge [(a>2)\wedge(b>3)]$ 
-$\neg J(a, b)\equiv$ True
+$\neg J(a, b)\equiv$ False
 f)False
 
 Q3)
@@ -248,6 +248,5 @@ Thus we have proved that $\forall a, b, c \in \mathbb{R}, a^2+14b^2+4c^2-6ab-7bc
 Q6)
 a) $\forall \theta \in \mathbb{R}, [P(\theta) \wedge Q(\theta) \wedge T(\theta) \iff U(\theta)]$
 b)$\neg[\forall \theta \in \mathbb{R}, S(\theta)\iff V(\theta)]$
-c)
-d)
-
+c)$\exists \theta \in \mathbb{R}:\left(  \theta = \frac{3\pi}{4} \wedge \cos\theta\neq-\frac{1}{\sqrt{2}} \right) \vee (\cos\theta=-\frac{1}{\sqrt{2}} \wedge \theta \neq \frac{3\pi}{4})$
+d)Let $\theta = \frac{5\pi}{4}$, $\cos\theta = \cos(\frac{5\pi}{4}) = -\frac{\sqrt{2}}{2}$ and $\frac{5\pi}{4} \neq \frac{3\pi}{4}$. Thus, it is $(\cos\theta=-\frac{1}{\sqrt{2}} \wedge \theta \neq \frac{3\pi}{4}$ is true, hence the entire existential statement is true.
