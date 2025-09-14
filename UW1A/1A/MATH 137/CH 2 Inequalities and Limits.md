@@ -67,7 +67,7 @@ What is happening to the sequence $\{1/n\}$ and $\{(-1)^n\}$ as $n$ gets larger 
 #### Convergence of Infinite Sequence  
 
 ##### IMPORTANT:   
-**Let $\{a_{n}\}$ be a sequence and $L \in \mathbb{R}$. We say that $L$ is the **limit** of $\{a_{n}\}$ if $\text{for every } \epsilon > 0, \exists N \in \mathbb{R}$ s.t. if $n>N$, then    
+**Let $\{a_{n}\}$ be a sequence and $L \in \mathbb{R}$. We say that $L$ is the limit** of $\{a_{n}\}$ if $\text{for every } \epsilon > 0, \exists N \in \mathbb{R}$ s.t. if $n>N$, then    
 $$
 |a_{n}-L|<\epsilon
 $$ 
@@ -79,7 +79,7 @@ We can also define the limit of a sequence in terms of tails!
 #### Theorem(Equivalent Definition of the Limit of a Sequence)
 1) $\lim_{n \to \infty} a_{n} =L$  
 2) For every $\epsilon > 0$, the interval $(L-\epsilon, L+\epsilon) \text{ contains a tail of } \{a_{n}\}$  
-3) For every , the number of elements of $\{a_{n}\} \text{ that do not lie in } (L-\epsilon, L+\epsilon)$ is finite   
+3) For every $\epsilon > 0$ , the number of elements of $\{a_{n}\} \text{ that do not lie in } (L-\epsilon, L+\epsilon)$ is finite   
 4) Every interval $(a, b)$ containing $L$ contains a tail of $\{a_{n}\}$  
 5) Given any interval $(a, b)$ containing $L$, the number of elements of $\{a_{n}\} \text{that do not lie in } (a, b)$ is finite  
 
@@ -97,7 +97,7 @@ Side work:
 we want $N$ s.t. for $n>N, |a_{n}-L|<\epsilon$  
 $|\frac{3n^2+2n}{4n^2+n+1}-\frac{3}{4}| \iff |\frac{12n^2+8n}{16n^2+4n+4} - \frac{12n^2+3n+3}{16n^2+4n+4}| = |\frac{5n-3}{16n^2+4n+4}|= \frac{5n-3}{16n^2+4n+4}$(to get a common factor to cancel, make top bigger and make bottom smaller)  
 
-$\frac{5n-3}{16n^2+4n+4} < \frac{5n}{16n^2+4n} = \frac{5}{\frac{16}{4}} < \epsilon \iff 16n+4 > \frac{5}{\epsilon} \iff n> \frac{5}{16\epsilon}-\frac{1}{4}$   
+$\frac{5n-3}{16n^2+4n+4} < \frac{5n}{16n^2+4n} = \frac{5}{16n+4} < \epsilon \iff 16n+4 > \frac{5}{\epsilon} \iff n> \frac{5}{16\epsilon}-\frac{1}{4}$   
 
 Actual proof work:  
 Let $\epsilon > 0$ be given, choose $N = \frac{5}{16\epsilon}-\frac{1}{4}$. Then $|a_{n}-L| = |\frac{3n^2+2n}{4n^2+n+1}-\frac{3}{4}| = |\frac{12n^2+8n}{16n^2+4n+4} - \frac{12n^2+3n+3}{16n^2+4n+4}| = |\frac{5n-3}{16n^2+4n+4}|= \frac{5n-3}{16n^2+4n+4} < \frac{5n}{16n^2+4n}=\frac{5}{16n+4}=\frac{5}{16N+4} = \frac{5}{16\left( \frac{5}{16\epsilon}-\frac{1}{4} \right)+4} = \frac{5}{\frac{5}{\epsilon}-4+4}=\epsilon$   
